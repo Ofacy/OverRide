@@ -14,7 +14,6 @@ int decrypt(char input) {
 
 int test(int param1, int param2) {
 	switch(param1 - param2) {
-		case 0:
 		case 1:
 		case 2:
 		case 3:
@@ -44,5 +43,5 @@ int main() {
 	puts("***********************************");
 	printf("Password:");
 	scanf("%d", &user_input);
-	test(user_input, 322424845);
+	test(user_input, 322424845); // pass 322424845 - 18
 }
